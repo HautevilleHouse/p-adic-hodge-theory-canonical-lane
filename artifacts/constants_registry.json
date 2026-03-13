@@ -1,0 +1,77 @@
+{
+  "constants": {
+    "eps_coh": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 6 / Appendix E; raw=0.0, ref=1.0, formula=eps_coh_raw",
+      "source": "artifacts/constants_extracted.json#eps_coh",
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 6 / Appendix E",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.0
+    },
+    "hodge_tate_transfer": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 6 / Appendix D; raw=1.02951, ref=1.0, formula=c_transfer_raw * transfer_gain_raw - e_transfer_raw",
+      "source": "artifacts/constants_extracted.json#hodge_tate_transfer",
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 6 / Appendix D",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.02951
+    },
+    "kappa_compact": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 5 / Appendix C; raw=0.8038585209003215, ref=1.0, formula=1.0 / (1.0 + delta_comp_sup_raw)",
+      "source": "artifacts/constants_extracted.json#kappa_compact",
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 5 / Appendix C",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.8038585209003215
+    },
+    "kappa_local": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 4.5 / Appendix A; raw=1.0940320000000001, ref=1.0, formula=c_local_raw * packet_density_raw - e_local_raw",
+      "source": "artifacts/constants_extracted.json#kappa_local",
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0940320000000001
+    },
+    "kappa_period": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 4 / Appendix A; raw=1.091838, ref=1.0, formula=c_core_raw * density_raw - e_core_raw",
+      "source": "artifacts/constants_extracted.json#kappa_period",
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 4 / Appendix A",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.091838
+    },
+    "packet_local": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 6.2 / Appendix E.4; raw=1.0315400000000001, ref=1.0, formula=c_packet_raw * local_gain_raw - e_packet_raw",
+      "source": "artifacts/constants_extracted.json#packet_local",
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 6.2 / Appendix E.4",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0315400000000001
+    },
+    "rho_rigidity": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 6 / Appendix D; raw=1.077, ref=1.0, formula=rho_rigidity_raw",
+      "source": "artifacts/constants_extracted.json#rho_rigidity",
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 6 / Appendix D",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.077
+    },
+    "sigma_comparison": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 5 / Appendix B; raw=1.075, ref=1.0, formula=capture_floor_raw - transport_loss_raw - restart_loss_raw",
+      "source": "artifacts/constants_extracted.json#sigma_comparison",
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 5 / Appendix B",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.075
+    },
+    "sigma_matching": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 5.2 / Appendix B; raw=1.075, ref=1.0, formula=matching_floor_raw - stabilization_loss_raw - restart_loss_raw",
+      "source": "artifacts/constants_extracted.json#sigma_matching",
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.075
+    }
+  },
+  "updated_at_utc": "2026-03-13T05:04:38Z"
+}

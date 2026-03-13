@@ -1,0 +1,2 @@
+{"all_pass": true, "gates": {"LLG_G1": "PASS", "LLG_G2": "PASS", "LLG_G3": "PASS", "LLG_G4": "PASS", "LLG_G5": "PASS", "LLG_G6": "PASS", "LLG_GM": "PASS"}, "strict_margin": 0.8038585209003215, "timestamp_utc": "2026-03-13T04:34:18+00:00"}
+{"all_pass": true, "gates": {"PHT_G1": "PASS", "PHT_G2": "PASS", "PHT_G3": "PASS", "PHT_G4": "PASS", "PHT_G5": "PASS", "PHT_G6": "PASS", "PHT_GM": "PASS"}, "strict_margin": 0.8038585209003215, "timestamp_utc": "2026-03-13T05:04:38+00:00"}

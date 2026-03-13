@@ -1,0 +1,19 @@
+{
+  "extracted_source": "artifacts/constants_extracted.json",
+  "framework": "p_adic_hodge_theory",
+  "generated_utc": "2026-03-13T05:04:38Z",
+  "promoted_constants": {
+    "eps_coh": 0.0,
+    "hodge_tate_transfer": 1.02951,
+    "kappa_compact": 0.8038585209003215,
+    "kappa_period": 1.091838,
+    "rho_rigidity": 1.077,
+    "sigma_comparison": 1.075
+  },
+  "promoted_stitch": {
+    "sigma_star_can": 1.053
+  },
+  "registry_path": "artifacts/constants_registry.json",
+  "schema_version": "2026-03-05",
+  "stitch_path": "artifacts/stitch_constants.json"
+}

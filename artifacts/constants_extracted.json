@@ -1,0 +1,171 @@
+{
+  "constants": {
+    "eps_coh": {
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "formula": "eps_coh_raw",
+      "normalized_value": 0.0,
+      "notes": "Strict coherence target.",
+      "raw_value": 0.0,
+      "reference": 1.0,
+      "required_nonnegative": true,
+      "required_positive": false,
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 6 / Appendix E",
+      "status": "derived_numeric",
+      "strict_zero": true,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "hodge_tate_transfer": {
+      "components": {
+        "c_transfer_raw": 1.117,
+        "e_transfer_raw": 0.121,
+        "transfer_gain_raw": 1.03
+      },
+      "formula": "c_transfer_raw * transfer_gain_raw - e_transfer_raw",
+      "normalized_value": 1.02951,
+      "notes": "hodge_tate_transfer theorem-level floor.",
+      "raw_value": 1.02951,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 6 / Appendix D",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_compact": {
+      "components": {
+        "delta_comp_sup_raw": 0.244
+      },
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "normalized_value": 0.8038585209003215,
+      "notes": "kappa_compact theorem-level floor.",
+      "raw_value": 0.8038585209003215,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 5 / Appendix C",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_period": {
+      "components": {
+        "c_core_raw": 1.441,
+        "density_raw": 0.918,
+        "e_core_raw": 0.231
+      },
+      "formula": "c_core_raw * density_raw - e_core_raw",
+      "normalized_value": 1.091838,
+      "notes": "kappa_period theorem-level floor.",
+      "raw_value": 1.091838,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 4 / Appendix A",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "rho_rigidity": {
+      "components": {
+        "rho_rigidity_raw": 1.077
+      },
+      "formula": "rho_rigidity_raw",
+      "normalized_value": 1.077,
+      "notes": "rho_rigidity theorem-level floor.",
+      "raw_value": 1.077,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 6 / Appendix D",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "sigma_comparison": {
+      "components": {
+        "capture_floor_raw": 1.391,
+        "restart_loss_raw": 0.149,
+        "transport_loss_raw": 0.167
+      },
+      "formula": "capture_floor_raw - transport_loss_raw - restart_loss_raw",
+      "normalized_value": 1.075,
+      "notes": "sigma_comparison theorem-level floor.",
+      "raw_value": 1.075,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 5 / Appendix B",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  },
+  "framework": "p_adic_hodge_theory",
+  "generated_utc": "2026-03-13T05:04:38Z",
+  "inputs_path": "artifacts/constants_extraction_inputs.json",
+  "inputs_sha256": "dbb5cc005d7432b88add99ff6a4d351348054b2384d6258ba13e0156de22ac7e",
+  "schema_version": "2026-03-05",
+  "stitch": {
+    "sigma_star_can": {
+      "components": {
+        "sigma_star_can_raw": 1.053
+      },
+      "formula": "sigma_star_can_raw",
+      "normalized_value": 1.053,
+      "notes": "sigma_star_can theorem-level stitch constant.",
+      "raw_value": 1.053,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/P_ADIC_HODGE_THEORY_PREPRINT.md Section 5 / stitch constants",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  }
+}

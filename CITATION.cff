@@ -1,0 +1,24 @@
+title: "p-adic Hodge Theory via Period-Realization Persistence"
+  message: "If you use this workspace, cite the manuscript and theorem notes."
+  type: software
+  authors:
+    - name: "HautevilleHouse"
+  date-released: 2026-03-05
+  repository-code: "https://github.com/HautevilleHouse/p-adic-hodge-theory-canonical-lane"
+  url: "https://github.com/HautevilleHouse/p-adic-hodge-theory-canonical-lane"
+  license: None
+  keywords:
+- canonical-lane
+- galois-representations
+- local-to-global
+- manifold-constrained
+- mathematical-proof
+- p-adic-hodge-theory
+- period-rings
+- reproducibility
+  preferred-citation:
+    type: article
+    title: "p-adic Hodge Theory via Period-Realization Persistence"
+    authors:
+      - name: "HautevilleHouse"
+    date: 2026-03-05
