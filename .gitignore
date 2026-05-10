@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 .codex_tmp/
+repro/certificate_runtime.json
+repro/drift_guard_runs.jsonl
